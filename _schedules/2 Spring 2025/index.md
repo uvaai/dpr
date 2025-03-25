@@ -171,18 +171,9 @@ of the formats above, you can email the course staff at <ai@proglab.nl>
 
 ## Passing the course
 
-This course consists of 3 larger assignments, that have been divided into 2
-modules each. For the first module of an assignment, you'll only receive
-feedback on your code, which you can use the to improve your work. Then, for
-the second module, you'll hand in the full assignment, which will be graded on
-a 1 to 10 scale. Your grade will mainly depend on the style and design of your
-code.
+This course consists of three larger assignments, each divided into two modules. In the first module, you will submit your code and receive feedback which you can then use to improve your work. In the second module, you will submit the full assignment including a small research component where you analyze your results. This final submission will be graded on a 1 to 10 scale.
 
-Design
-
-: This is about adding effective abstractions to your code. Simple examples
-might be to use a loop instead of copy-pasting code, or writing a function for
-code you want to reuse several times.
+Your grade will mainly depend on: the style and design of your code, and the analysis you perform in the final part of each assignment.
 
 Style
 
@@ -190,19 +181,29 @@ Style
 clear variable names, adding comments and adding whitespace to separate blocks
 of code can all help to make your code more readable.
 
+Design
+
+: This is about adding effective abstractions to your code. Simple examples
+might be to use a loop instead of copy-pasting code, or writing a function for
+code you want to reuse several times.
+
+Analysis
+
+: This is about critically evaluating your work throughout the assignment, not just at the end. It involves reflecting on intermediate results, recognizing patterns, and making adjustments where needed. In the second module of each assignment, you’ll conduct a small research component where you analyze your results, explore alternative approaches, or assess how effective your solution is. A good analysis explains unexpected outcomes, explores possible improvements, and demonstrates an understanding of why a part of your solution works (or doesn’t). Stronger analyses always include reflection on the choices made during the development process and compare different methods or test edge cases.
+
 If you've completed the entire assignment and your code produces the correct
-output, your grade starts at 6. The remainder of your grade is then
+output, your grade starts at 4. The remainder of your grade is then
 determined as follows:
 
-* 0 - Style and design of the code are of insufficient quality. Code does produce correct output and open questions have been answered.
+**To receive a grade, your work must meet all criteria for that level.**
 
-* 1 - Style and design have had some attention, but there are still clear improvements to be made. Answers to most open questions are correct.
-
-* 2 - Style and design are of sufficient quality, answers to open questions are correct.
-
-* 3 - Style and design are very good, answers are correct and show understanding.
-
-* 4 - Exceptional style and design, answers are beyond expectations.
+* 0 - Style and design of the code are of insufficient quality. Code produces the correct output. Analysis is missing or very superficial.
+* 1 - Style and design of the code are of insufficient quality. Code produces the correct output. Some analysis is present, but it lacks depth, reasoning, or a clear connection to the results.
+* 2 - Style and design have had some attention, but there are still clear improvements to be made. Some analysis is present, but it lacks depth, reasoning, or a clear connection to the results.
+* 3 - Style and design have had some attention, but there are still clear improvements to be made. Analysis is of sufficient quality, with a discussion of results and some intermediate reflection.
+* 4 - Style and design are of sufficient quality. Analysis is of sufficient quality, with a discussion of results and some intermediate reflection.
+* 5 - Style and design are very good, answers are correct and show understanding. Analysis is thorough, with strong reasoning and understanding of results, or additional experimentation.
+* 6 - Exceptional style and design. Exceptional analysis, containing significant portions of additional experimentation.
 
 ### Attendance
 
@@ -364,4 +365,3 @@ Find them here in [English] and [Dutch].
 - Splitting an assignment's workload with another individual and combining your work.
 
 - Submitting (after possibly modifying) the work of another individual.
-
