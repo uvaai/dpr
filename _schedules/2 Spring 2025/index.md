@@ -192,20 +192,18 @@ code you want to reuse several times.
 
 Analysis
 
-: This is about critically evaluating your work throughout the assignment, not just at the end. It involves reflecting on intermediate results, recognizing patterns, and making adjustments where needed. In the second module of each assignment, you’ll conduct a small research component where you analyze your results, explore alternative approaches, or assess how effective your solution is. A good analysis explains unexpected outcomes, explores possible improvements, and demonstrates an understanding of why a part of your solution works (or doesn’t). Stronger analyses always include reflection on the choices made during the development process and compare different methods or test edge cases.
+: This is about critically evaluating your work throughout the assignment, not just at the end. Analysis involves reflecting on intermediate results, checking if results make sense, recognizing patterns, and making adjustments where needed. In addition, in the second module of each assignment, you’ll also conduct a small research component where you analyze your results, explore alternative approaches, or assess how effective your solution is. A good analysis explains unexpected outcomes, explores possible improvements, and demonstrates an understanding of why a part of your solution works (or doesn’t). A stronger analysis includes reflection on the choices made during the development process, compares different methods, or tests for different edge cases.
 
-If you've completed the entire assignment and your code produces the correct
-output, your grade starts at 4. The remainder of your grade is then
-determined as follows:
+If you've completed the entire assignment and your code produces the correct output, your grade starts at 4. The remainder of your grade is then determined as follows:
 
-**To receive a grade, your work must meet all criteria for that level.**
+*To receive a grade, your work must meet all criteria for that level.*
 
-* 0 - Style and design of the code are of insufficient quality. Code produces the correct output. Analysis is missing or very superficial.
-* 1 - Style and design of the code are of insufficient quality. Code produces the correct output. Some analysis is present, but it lacks depth, reasoning, or a clear connection to the results.
+* 0 - Code produces the correct output. Style and design of the code are of insufficient quality. Analysis is missing or very superficial.
+* 1 - Style and design of the code are of insufficient quality. Some analysis is present, but it lacks depth, reasoning, or a clear connection to the results.
 * 2 - Style and design have had some attention, but there are still clear improvements to be made. Some analysis is present, but it lacks depth, reasoning, or a clear connection to the results.
 * 3 - Style and design have had some attention, but there are still clear improvements to be made. Analysis is of sufficient quality, with a discussion of results and some intermediate reflection.
-* 4 - Style and design are of sufficient quality. Analysis is of sufficient quality, with a discussion of results and some intermediate reflection.
-* 5 - Style and design are very good, answers are correct and show understanding. Analysis is thorough, with strong reasoning and understanding of results, or additional experimentation.
+* 4 - Style and design are of sufficient quality for every aspect of the code. Analysis is of sufficient quality, with a discussion of results and some intermediate reflection.
+* 5 - Style and design are very good. Analysis is thorough, showing clear understanding of results and including strong reasoning for next steps, or contains additional experimentation.
 * 6 - Exceptional style and design. Exceptional analysis, containing significant portions of additional experimentation.
 
 ### Attendance
