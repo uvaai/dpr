@@ -1,21 +1,21 @@
 
 ## Module 5
 
-The deadline for both Data Processing and Representations and Introduction to Machine Learning 2 is<br>**Friday December 6th at 17:59**
+The deadline for both Data Processing and Representations and Introduction to Machine Learning 2 is<br>**Tuesday May 13th at 17:59**
 
 | Day                | Data Processing<br>and Representations | Introduction to<br>Machine Learning | Seminars          |
 | ------------------ | ---------------------------- | ----------------------------------- | --------------------------- |
-| Friday<br>29/11    | HTML + Homepage              | Theory videos &<br>Convolution: Assignment 2 |                    |
-|                    |                              |                                              |                    |
-| Monday<br>02/12    | Argparse<br>& Start Scraping | Convolution: Assignment 5           | Group seminar               |
-| Tuesday<br>03/12   | Finish Scraping<br>& Visualize | Convolution: Assignment 7         | Office hours                |
-| Wednesday<br>04/12 | Try-Except<br>& Start Crawling | Convolution: Assignment 8         |                             |
-| Thursday<br>05/12  | Finish Crawling              | Convolution: Assignment 10          |                             |
-| Friday<br>06/12    | Visualize                    | Writing Assignment                  |                             |
+| Tuesday<br>06/05   | Processing violations and<br>reviews   | Theory videos &<br>Convolution: Assignment 2 |          |
+| Wednesday<br>07/05 | Counting words and<br>better metrics   | Convolution: Assignment 5 |                             |
+| Thursday<br>08/05  | Further tweaks and<br>first improvement | Convolution: Assignment 7 | Office hours               |
+| Friday<br>09/05    | First improvement                      | Convolution: Assignment 8 |                             |
+|                    |                                        |                           |                             |
+| Monday<br>12/05    | Second improvement                     | Convolution: Assignment 10 | Group seminar              |
+| Tuesday<br>13/05   | Second improvement<br>and compare improv. | Writing Assignment     |                             |
 
 
 
 #### Office hours
 
-The office hours will be held in room **L0.11 at 10:00** on the scheduled day. During office hours you can use the question queue to ask the staff any further explanations on the theory of that module, or discuss any personal matters.
+The office hours will be held in room **L0.10 at 10:00** on the scheduled day. During office hours you can use the question queue to ask the staff any further explanations on the theory of that module, or discuss any personal matters.
 
