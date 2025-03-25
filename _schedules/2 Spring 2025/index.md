@@ -192,7 +192,7 @@ code you want to reuse several times.
 
 Analysis
 
-: This is about critically evaluating your work throughout the assignment, not just at the end. Analysis involves reflecting on intermediate results, checking if results make sense, recognizing patterns, and making adjustments where needed. In addition, in the second module of each assignment, you’ll also conduct a small research component where you analyze your results, explore alternative approaches, or assess how effective your solution is. A good analysis explains unexpected outcomes, explores possible improvements, and demonstrates an understanding of why a part of your solution works (or doesn’t). A stronger analysis includes reflection on the choices made during the development process, compares different methods, or tests for different edge cases.
+: This is about critically evaluating your work throughout the assignment. Analysis involves reflecting on intermediate results, checking if results make sense, recognizing patterns, and making adjustments where needed. In addition, in the second module of each assignment, you’ll also conduct a small research component where you analyze your results, explore alternative approaches, or assess how effective your solution is. A good analysis explains unexpected outcomes, explores possible improvements, and demonstrates an understanding of why a part of your solution works (or doesn’t). A stronger analysis includes reflection on the choices made during the development process, compares different methods, or tests for different edge cases.
 
 If you've completed the entire assignment and your code produces the correct output, your grade starts at 4. The remainder of your grade is then determined as follows:
 
