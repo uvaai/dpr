@@ -76,8 +76,8 @@ Module 6 [14/5/25]:
         Submit: /submit/malaria
 
 Practice Exam:
-    Exam: /exams/practice_exam
-    More practice: /exams/more_practice
+    Exam: https://uvaai.github.io/dpr-exam/practice/exam.html
+    # More practice: https://uvaai.github.io/dpr-exam/more_practice/index.html
 
 Exam:
     Exam: https://uvaai.github.io/dpr-exam/exam/exam.html
