@@ -1,17 +1,17 @@
 
 # Module 2
 
-The deadline for both Data Processing and Representations and Introduction to Machine Learning 2 is<br>**Monday April 14th at 17:59**
+The deadline for both Data Processing and Representations and Introduction to Machine Learning 2 is<br>**Monday November 10th at 17:59**
 
 | Day                | Data Processing<br>and Representations | Introduction to<br>Machine Learning | Seminars          |
 | ------------------ | ---------------------------- | ----------------------------------- | --------------------------- |
-| Monday<br>07/04    | Populations: Phase 6 & 7     | Theory Videos + NN<br>Forward: Assignment 1 | Group seminar       |
-| Tuesday<br>08/04   | Populations: Phase 8         | NN Forward:<br>Assignment 2 & 3     | Office hours                |
-| Wednesday<br>09/04 | Populations: Phase 9         | NN Forward:<br>Assignment 4, 5, 6 & 7 |                           |
-| Thursday<br>10/04  | Populations: Experiment      | NN Forward:<br>Assignment 8 & 9     |                             |
-| Friday<br>11/04    | Populations: Visualize       | NN Forward:<br>Assignment 10, 11 & 12 |                           |
+| Monday<br>03/11    | Populations: Phase 6 & 7     | Theory Videos + NN<br>Forward: Assignment 1 | Group seminar       |
+| Tuesday<br>04/11   | Populations: Phase 8         | NN Forward:<br>Assignment 2 & 3     | Office hours                |
+| Wednesday<br>05/11 | Populations: Phase 9         | NN Forward:<br>Assignment 4, 5, 6 & 7 |                           |
+| Thursday<br>06/11  | Populations: Experiment      | NN Forward:<br>Assignment 8 & 9     |                             |
+| Friday<br>07/11    | Populations: Visualize       | NN Forward:<br>Assignment 10, 11 & 12 |                           |
 |                    |                              |                                       |                           |
-| Monday<br>14/04    | Populations: Visualize       | Written Assignment                  | Group seminar               |
+| Monday<br>10/11    | Populations: Visualize       | Written Assignment                  | Group seminar               |
 
 
 
