@@ -127,7 +127,7 @@ and get assistance.
 
 ### Practical assistance
 
-There are 2.5 hours scheduled every day where you can ask practical questions
+There are 3 hours scheduled every day where you can ask practical questions
 to the TA's of the minor. During these hours you can use the "Assistance"
 feature on the main [minor AI website](https://minai.proglab.nl/), using the
 question mark symbol in the top right corner of that page. Please use this
@@ -139,8 +139,8 @@ TA handling your question knows where to find you when it is your turn.
 
 The hours are scheduled as follows:
 
-* In general, assistance hours are from 10:00 to 12:30
-* On Mondays there are group seminars in the morning, so the assistance hours are from 13:30 to 16:00 instead.
+* In general, assistance hours are from 10:00 to 13:00
+* On Mondays there are group seminars in the morning, so the assistance hours are from 14:00 to 17:00 instead.
 
 ### Office hours
 
