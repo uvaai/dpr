@@ -37,7 +37,7 @@ for all of you to work on campus full-time.
 Most on-campus activities, including the practical assistance, will generally be
 held in this room. There are some exceptions with activities that do not fit
 in the room, like the group seminars and the exam. The schedule for these
-group seminars can be found on Datanose [here](https://datanose.nl/#course[128439])
+group seminars can be found on Datanose [here](https://datanose.nl/#course[136815])
 
 The schedule for the practical assistance hours that will be held in L0.11 can
 be found in the "Asking Questions" section below.
@@ -67,7 +67,7 @@ situation and the difficulties you're having, so will require sending an email.
 
 If you are a part-time student, you can just follow the *Data Processing and Representations*
 half of the daily schedule. You should still attend the group
-seminars with the other students, as scheduled [here](https://datanose.nl/#course[128439]),
+seminars with the other students, as scheduled [here](https://datanose.nl/#course[136815]),
 but can otherwise choose which of your daily practical assistance slots combine
 best with your own schedule.
 
@@ -173,7 +173,7 @@ written assignment topics, or some small programming exercises to practice
 with the group. In addition, you can always use these seminars to ask you TA any
 questions you might have about the feedback they gave you as part of the grading for
 the previous module. The schedule for the group seminars can be found on Datanose
-[here](https://datanose.nl/#course[128439])
+[here](https://datanose.nl/#course[136815])
 
 ### Email the staff
 
