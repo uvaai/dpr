@@ -1,21 +1,42 @@
 name: dpr_practice_exam
 exam: true
 buttons:
-    "Checkpy": |
+    "Checkpy OOP": |
             from checkpy.interactive import testOffline
-            testOffline("dpr_practice_exam", "/home/pyodide", multiprocessing=False, silentMode=False)
+            testOffline("dpr_practice_exam_oop", "/home/pyodide", multiprocessing=False, silentMode=False)
+            print("\nend tests!")
+    "Checkpy Pandas": |
+            from checkpy.interactive import testOffline
+            testOffline("dpr_practice_exam_pandas", "/home/pyodide", multiprocessing=False, silentMode=False)
+            print("\nend tests!")
+    "Checkpy built-ins": |
+            from checkpy.interactive import testOffline
+            testOffline("dpr_practice_exam_bi", "/home/pyodide", multiprocessing=False, silentMode=False)
             print("\nend tests!")
 check:
     tool: checkpy
     repo: uvaai/exam-tests
-    args: dpr_practice_exam
+    args: dpr_practice_exam_oop dpr_practice_exam_pandas dpr_practice_exam_bi
 files:
     required:
-        'dpr_practice_exam.py': |
-            # Data Processing and Representation, practice exam
+        'dpr_practice_exam_oop.py': |
+            # Practice exam: OOP
             # Name: ...
 
-            print("Welcome to the practice exam! You can write your solutions in this file.")
+            # YOUR SOLUTIONS HERE
+
+        'dpr_practice_exam_pandas.py': |
+            # Practice exam: Pandas
+            # Name: ...
+
+            # YOUR SOLUTIONS HERE
+
+        'dpr_practice_exam_bi.py': |
+            # Practice exam: built-ins
+            # Name: ...
+
+            # YOUR SOLUTIONS HERE
+
 
         'temp.py': |
             # This file will be ignored by us. You can use this as a canvas
@@ -303,7 +324,7 @@ files:
             1939;96.0;Old Maid, The;Drama;Brent, George;Davis, Bette;Goulding, Edmund;18.0;No
             1950;138.0;All about Eve;Drama;Sanders, George;Davis, Bette;Mankiewicz, Joseph L.;23.0;Yes
             1986;96.0;Fly, The;Horror;Goldblum, Jeff;Davis, Geena;Cronenberg, David;33.0;No
-            1990;89.0;Quick Change;Comedy;Murray, Bill;Davis, Geena;Franklin, Howard ;24.0;No
+            1990;89.0;Quick Change;Comedy;Murray, Bill;Davis, Geena;Franklin, Howard;24.0;No
             1988;93.0;Lair of the White Worm, The;Horror;Grant, Hugh;Davis, Sammi;Russell, Ken;16.0;No
             1989;104.0;Rainbow, The;Drama;Hemmings, David;Davis, Sammi;Russell, Ken;53.0;No
             1956;120.0;Man Who Knew Too Much, The;Mystery;Stewart, James;Day, Doris;Hitchcock, Alfred;15.0;No
@@ -410,7 +431,7 @@ files:
             1990;94.0;Rain Killer, The;Mystery;Sharkey, Ray;Ford, Maria;Stein, Ken;10.0;No
             1983;95.0;Valley Girl;Comedy;Cage, Nicolas;Foreman, Deborah;Coolidge, Martha;30.0;No
             1991;118.0;Silence of the Lambs, The;Mystery;Hopkins, Anthony;Foster, Jodie;Demme, Jonathan;8.0;Yes
-            1988;98.0;Stealing Home;Drama;Harmon, Mark;Foster, Jodie;Kampmann, Steven ;76.0;No
+            1988;98.0;Stealing Home;Drama;Harmon, Mark;Foster, Jodie;Kampmann, Steven;76.0;No
             1972;92.0;Napoleon & Samantha;Comedy;Douglas, Michael;Foster, Jodie;McEveety, Bernard;33.0;No
             1989;103.0;My Left Foot;Drama;Day-Lewis, Daniel;Fricker, Brenda;Sheridan, Jim;32.0;Yes
             1987;92.0;Back to the Beach;Comedy;Avalon, Frankie;Funicello, Annette;Hobbs, Lyndall;45.0;No
@@ -792,7 +813,7 @@ files:
             1991;108.0;Prisoner of Honor.;Drama;Dreyfuss, Richard;Neilson, Catherine;Russell, Ken;58.0;No
             1980;109.0;Wholly Moses!;Comedy;Moore, Dudley;Newman, Laraine;Weis, Gary;25.0;No
             1991;110.0;Star Trek VI: The Undiscovered Country;Science Fiction;Shatner, William;Nichols, Nichelle;Meyer, Nicholas;11.0;No
-            1989;107.0;Star Trek V: The Final Frontier;Action;Shatner, William;Nichols, Nichelle;Shatner, William ;87.0;No
+            1989;107.0;Star Trek V: The Final Frontier;Action;Shatner, William;Nichols, Nichelle;Shatner, William;87.0;No
             1991;85.0;Circuitry Man;Action;Metzler, Jim;Nicholson, Dana W.;Lovy, Steven;78.0;No
             1986;87.0;Cobra;Action;Stallone, Sylvester;Nielsen, Brigitte;Cosmatos, George P.;57.0;No
             1987;103.0;Beverly Hills Cop II;Comedy;Murphy, Eddie;Nielsen, Brigitte;Scott, Tony;37.0;No
@@ -1058,7 +1079,7 @@ files:
             1983;90.0;Man with Two Brains, The;Comedy;Martin, Steve;Turner, Kathleen;Reiner, Carl;68.0;No
             1984;101.0;Crimes of Passion;Drama;Perkins, Anthony;Turner, Kathleen;Russell, Ken;4.0;No
             1985;106.0;Jewel of the Nile, The;Action;Douglas, Michael;Turner, Kathleen;Teague, Lewis;68.0;No
-            1984;106.0;Romancing the Stone;Action;Douglas, Michael;Turner, Kathleen;Zemeckis, Robert ;83.0;No
+            1984;106.0;Romancing the Stone;Action;Douglas, Michael;Turner, Kathleen;Zemeckis, Robert;83.0;No
             1955;117.0;Sea Chase, The;War;Wayne, John;Turner, Lana;Farrow, John;4.0;No
             1988;90.0;Cannibal Women in the Avocado Jungle of Death;Comedy;Primus, Barry;Tweed, Shannon;Lawton, J.F.;56.0;No
             1986;91.0;Mr Love.;Comedy;Jackson, Barry;Tyzack, Margaret;Battersby, Roy;10.0;No
@@ -1151,3 +1172,293 @@ files:
             1987;103.0;Heat;Mystery;Reynolds, Burt;Young, Karen;Jameson, Jerry;69.0;No
             1947;87.0;Night Is My Future;Drama;Malmsten, Birger;Zetterling, Mai;Bergman, Ingmar;17.0;No
             1990;92.0;Witches, The;Science Fiction;Fisher, Jasen;Zetterling, Mai;Roeg, Nicolas;18.0;No
+
+hidden_files:
+    required:
+        'dpr_practice_exam_oopTest.py': |
+            from checkpy import *
+            import sys
+            import io
+
+            ######## Generic helpers for class tests ########
+            def get_class(class_name):
+                """
+                Helper to retrieve the underlying Python class from the checkpy wrapper.
+                """
+                class_wrapper = getModule().__dict__.get(class_name)
+                assert class_wrapper is not None, f"No {class_name} class found."
+                return class_wrapper._function
+
+
+            def assert_attr_equal(obj, attr, expected, context=""):
+                """
+                Helper to assert that an object has a given attribute with the expected value.
+                """
+                assert hasattr(obj, attr), f"{context}: Missing attribute '{attr}'."
+                value = getattr(obj, attr)
+                assert value == expected, f"{context}: {attr} has value {value!r}, expected {expected!r}."
+
+
+            def assert_has_method(Class, method_name, context=""):
+                """
+                Helper to assert that a class has a callable method with the given name.
+                """
+                assert hasattr(Class, method_name), \
+                    f"{context}{Class.__name__} is missing the method '{method_name}'."
+                attr = getattr(Class, method_name)
+                assert callable(attr), \
+                    f"{context}{Class.__name__}.{method_name} exists but is not a method."
+                return attr
+
+
+            def class_init_test_factory(class_name, init_kwargs, required_attrs):
+                """
+                Factory to create a @test that:
+                - verifies the class exists,
+                - __init__ exists,
+                - an instance can be initialized,
+                - required attributes are present and correctly initialized.
+                """
+
+                def inner():
+                    Class = get_class(class_name)
+
+                    # Check __init__ presence
+                    assert "__init__" in Class.__dict__, \
+                        f"The {class_name} class does not contain an __init__ method."
+
+                    # Initialize instance
+                    instance = Class(**init_kwargs)
+
+                    # Check required attributes
+                    for attr_name, expected_value in required_attrs.items():
+                        assert hasattr(instance, attr_name), \
+                            f"The {class_name} class does not store a '{attr_name}' attribute after initialization."
+
+                        value = getattr(instance, attr_name)
+                        assert type(value) is type(expected_value), \
+                            f"The '{attr_name}' attribute in {class_name} has type {type(value).__name__}, " \
+                            f"expected {type(expected_value).__name__}."
+                        assert value == expected_value, \
+                            f"The '{attr_name}' attribute in {class_name} does not have the correct initial value."
+
+                inner.__name__ = f"{class_name.lower()}_init_attributes"
+                inner.__doc__ = f"{class_name} class initializes an instance correctly with __init__ and required attributes"
+
+                return test()(inner)
+
+
+            def method_existence_test_factory(class_name, methods, dependency_test):
+                """
+                Factory to create a @passed test that checks, for each method, that:
+                - it exists on the class
+                - it is callable
+                """
+
+                def inner():
+                    Class = get_class(class_name)
+
+                    for method in methods:
+                        # Use the shared helper so messages are consistent and logic is centralized
+                        assert_has_method(Class, method)
+
+                inner.__name__ = f"{class_name.lower()}_methods"
+                inner.__doc__ = f"{class_name} methods exist and are callable"
+
+                return passed(dependency_test, hide=False)(inner)
+
+
+            ######## Company tests ########
+
+            company_init_attributes = class_init_test_factory(
+                "Company",
+                init_kwargs={"balance": 1000000},
+                required_attrs={"balance": 1000000, "employees": []},
+            )
+
+            company_methods = method_existence_test_factory(
+                "Company",
+                methods=["add_employee", "find_employee", "payout_salary", "print_employees_with_title"],
+                dependency_test=company_init_attributes,
+            )
+
+
+            @passed(company_methods, hide=False)
+            def test_add_employee_method():
+                """Company add_employee method adds Employee instances to employees list"""
+
+                Company = get_class("Company")
+                company = Company(balance=1000000)
+
+                company.add_employee("John Doe", 50000, "Developer")
+
+                assert isinstance(company.employees, list), \
+                    "The 'employees' attribute should be a list."
+                assert len(company.employees) == 1, \
+                    "The add_employee method should add exactly one employee to the employees list."
+
+                employee = company.employees[0]
+                assert_attr_equal(employee, "name", "John Doe", context="Employee")
+                assert_attr_equal(employee, "salary", 50000, context="Employee")
+                assert_attr_equal(employee, "function_title", "Developer", context="Employee")
+
+
+            @passed(company_methods, hide=False)
+            def test_find_employee_method():
+                """Company find_employee returns the correct Employee instance when found"""
+
+                Company = get_class("Company")
+                company = Company(balance=1000000)
+
+                company.add_employee("John Doe", 50000, "Developer")
+                company.add_employee("Jane Smith", 60000, "Manager")
+
+                employee = company.find_employee("Jane Smith")
+
+                assert employee is not None, \
+                    "find_employee returned None for an existing employee name."
+                assert_attr_equal(employee, "name", "Jane Smith", context="find_employee()")
+                assert_attr_equal(employee, "salary", 60000, context="find_employee()")
+                assert_attr_equal(employee, "function_title", "Manager", context="find_employee()")
+
+
+            @passed(company_methods, hide=False)
+            def test_find_employee_not_found():
+                """Company find_employee returns None when the employee does not exist"""
+
+                Company = get_class("Company")
+                company = Company(balance=1000000)
+
+                company.add_employee("John Doe", 50000, "Developer")
+                company.add_employee("Jane Smith", 60000, "Manager")
+
+                employee = company.find_employee("Alice Johnson")  # not in the list
+
+                assert employee is None, \
+                    "Expected find_employee to return None for a name that does not exist."
+
+
+            @passed(company_methods, hide=False)
+            def test_payout_salary_method():
+                """Company payout_salary correctly deducts total salary from balance"""
+
+                Company = get_class("Company")
+                company = Company(balance=1000000)
+
+                company.add_employee("John Doe", 50000, "Developer")
+                company.add_employee("Jane Smith", 60000, "Manager")
+
+                initial_balance = company.balance
+                company.payout_salary()
+
+                expected_balance = initial_balance - (50000 + 60000)
+                assert company.balance == expected_balance, (
+                    f"payout_salary did not deduct the correct total salary from the balance. "
+                    f"Expected {expected_balance}, got {company.balance}."
+                )
+                # We intentionally do NOT check printed output; only the numerical effect matters here.
+
+
+            @passed(company_methods, hide=False)
+            def test_payout_salary_no_employees():
+                """Company payout_salary leaves balance unchanged when there are no employees"""
+
+                Company = get_class("Company")
+                company = Company(balance=1000000)
+
+                initial_balance = company.balance
+                company.payout_salary()
+
+                assert company.balance == initial_balance, \
+                    "payout_salary should not change the balance when there are no employees."
+
+
+            @passed(company_methods, hide=False)
+            def test_print_employees_with_title_method():
+                """Company print_employees_with_title prints only employees with the given title, with each matching employee on a separate (non-empty) line."""
+
+                Company = get_class("Company")
+                company = Company(balance=1000000)
+
+                company.add_employee("John Doe", 50000, "Developer")
+                company.add_employee("Jane Smith", 60000, "Manager")
+                company.add_employee("Alice Johnson", 55000, "Developer")
+
+                # Capture stdout
+                original_stdout = sys.stdout
+                captured_output = io.StringIO()
+                try:
+                    sys.stdout = captured_output
+                    company.print_employees_with_title("Developer")
+                finally:
+                    sys.stdout = original_stdout
+
+                output = captured_output.getvalue()
+                lines = [line for line in output.strip().splitlines() if line.strip() != ""]
+
+                # We expect at least a header + one line per developer
+                assert len(lines) >= 3, (
+                    "Expected at least 3 non-empty lines of output "
+                    "(a header line and one line per developer). "
+                    f"Got {len(lines)}.\nOutput:\n{output}"
+                )
+
+                # Developer names should appear somewhere in the output
+                developer_names = ["John Doe", "Alice Johnson"]
+                for name in developer_names:
+                    assert any(name in line for line in lines), \
+                        f"Expected employee name '{name}' to appear in the output.\nOutput:\n{output}"
+
+                # Non-developer should not appear
+                assert not any("Jane Smith" in line for line in lines), \
+                    "Employee with a different title (Jane Smith) should not be printed."
+
+                # Require separate lines for each developer (encourage newline-per-employee design)
+                indices = {
+                    name: next(i for i, line in enumerate(lines) if name in line)
+                    for name in developer_names
+                }
+                assert indices["John Doe"] != indices["Alice Johnson"], \
+                    "Each employee with the requested title should be printed on a separate line."
+
+
+            ######## Employee tests ########
+
+            employee_init_attributes = class_init_test_factory(
+                "Employee",
+                init_kwargs={"name": "John Doe", "salary": 50000, "function_title": "Developer"},
+                required_attrs={"name": "John Doe", "salary": 50000, "function_title": "Developer"},
+            )
+
+            employee_methods = method_existence_test_factory(
+                "Employee",
+                methods=["promote"],
+                dependency_test=employee_init_attributes,
+            )
+
+
+            @passed(employee_methods, hide=False)
+            def test_promote_method():
+                """Employee promote method updates salary and function_title"""
+
+                Employee = get_class("Employee")
+                employee = Employee(name="John Doe", salary=50000, function_title="Developer")
+
+                employee.promote("Senior Developer", 60000)
+
+                assert_attr_equal(
+                    employee,
+                    "function_title",
+                    "Senior Developer",
+                    context="promote()",
+                )
+                assert_attr_equal(
+                    employee,
+                    "salary",
+                    60000,
+                    context="promote()",
+                )
+        'dpr_practice_exam_pandasTest.py': |
+            pass
+        'dpr_practice_exam_biTest.py': |
+            pass

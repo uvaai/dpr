@@ -14,4 +14,4 @@ While the structures might have gotten more complex with nested lists and dictio
 
 For information about OOP, take a look at the [OOP overview](/oop-overview).
 
-For a quick overview of Pandas, [download the Pandas cheatsheet](downloads/cheatsheet_pandas.pdf)
+For a quick overview of Pandas, [download the Pandas cheatsheet](downloads/cheatsheet-pandas.pdf)
