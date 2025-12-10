@@ -32,11 +32,14 @@ To define a class, use the `class` keyword, followed by an initializer and any m
             self.a = a
             self.b = b
 
-            # but feel free to do something comepletely different!
+            # but feel free to do something completely different!
             self.dinosaur = a + b
 
         def describe(self):
-            """This method accesses attributes using self, and then returns a formatted string."""
+            """
+            This method accesses attributes using self,
+            and then returns a formatted string.
+            """
             return f"a = {self.a}, b = {self.b}"
 
 To then use a class, first create an instance
@@ -45,5 +48,5 @@ To then use a class, first create an instance
 
 The `__init__()` method is called automatically when you create an instance of a class. Its first parameter, `self`, refers to the newly created object. You can then store data inside the object by assigning values to a named attribute within `self`. Inside any method of the class, we can then access the values stored within that attribute for a specific object using `self.<attribute_name>`. You can even access this data outside the class.
 
-    print(x.dinosaur) # accessing an attribute outside the class
+    print(x.dinosaur)   # accessing an attribute outside the class
     print(x.describe()) # calls the method on the instance x
