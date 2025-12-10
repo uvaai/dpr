@@ -6,8 +6,8 @@ This page gives an overview of all the subjects that will be covered in this cou
 - Pandas
 - Built-in datastructures
 
-If you need a Python refresher, or just want to be super sure about something, take a look at the [Python overview](https://pdp.proglab.nl/overview) or our [Python cheatsheet](/exam/downloads/cheatsheet.pdf).
+If you need a Python refresher, or just want to be super sure about something, take a look at the [Python overview](https://pdp.proglab.nl/overview) or our download our [Python cheatsheet](downloads/cheatsheet.pdf).
 
 For information about OOP, take a look at the [OOP overview](/oop-overview).
 
-For a quick overview of Pandas, check out the [Pandas cheatsheet](/exam/downloads/cheatsheet.pdf)
+For a quick overview of Pandas, download [Pandas cheatsheet](downloads/cheatsheet.pdf)
