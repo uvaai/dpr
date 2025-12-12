@@ -25,6 +25,37 @@ files:
 
             # YOUR SOLUTIONS HERE
 
+            # END SOLUTION
+
+            # Code you can use for testing below
+            if __name__ == "__main__":
+                trump_co = Company(1000000)
+
+                trump_co.add_employee('Fleur Kleur', 12000, 'CEO')
+                trump_co.add_employee('Stacy de Wit', 1812, 'Secretary')
+                trump_co.add_employee('Bart Zwart', 2147, 'Secretary')
+                trump_co.add_employee('Danielle Groen', 3540, 'Manager')
+                trump_co.add_employee('Kees de Bruin', 4800, 'Sales executive')
+                trump_co.add_employee('Mart van Oranje', 1990, 'Secretary')
+
+                print(f'Started the company with: {trump_co.balance}')
+                trump_co.payout_salary()
+                print(f'Balance after first salary: {trump_co.balance}')
+
+                print()
+                trump_co.print_employees_with_title('Secretary')
+
+                stacy = trump_co.find_employee('Stacy de Wit')
+                print()
+                print(f'Found {type(stacy)} named {stacy.name} with a salary of {stacy.salary} and with title {stacy.function_title}.')
+
+                stacy.promote('Manager', 2900)
+                print()
+                print(f'{stacy.name} has been promoted to {stacy.function_title}! Her new salary is {stacy.salary}.')
+
+                print()
+                trump_co.print_employees_with_title('Secretary')
+
         'dpr_practice_exam_pandas.py': |
             # Practice exam: Pandas
             # Name: ...
@@ -37,6 +68,52 @@ files:
 
             # YOUR SOLUTIONS HERE
 
+            # END SOLUTION
+
+            # Code you can use for testing below
+            if __name__ == "__main__":
+
+                # Defining the given data for tests
+                venue_seats = {'Tivoli': [('VIP', 'A1'), ('VIP', 'A2'), ('General', 'B1'), ('General', 'B2'), ('General', 'B3'), ('General', 'B4')],
+                            'Ahoy': [('VIP', 'A1'), ('VIP', 'A2'), ('VIP', 'A3'), ('General', 'B1'), ('General', 'B2'), ('General', 'C1'), ('General', 'C2'), ('General', 'D1'), ('General', 'D2')],
+                            'Ziggo Dome': [('General', 'A1'), ('General', 'B1'), ('General', 'C1'), ('General', 'D1')]}
+
+                concerts = [('Backstreet Boys', 'Ahoy', '11-02-2024'),
+                            ('Backstreet Boys', 'Tivoli', '12-02-2024'),
+                            ('Backstreet Boys', 'Ziggo Dome', '13-02-2024'),
+                            ('Golden Earring', 'Ahoy', '18-02-2024'),
+                            ('Greenday', 'Ziggo Dome', '18-02-2024')]
+
+
+                # Exercise 1
+                concert_database = initialize_concert_database(concerts)
+                print(concert_database)
+
+
+                # Exercise 2
+                concert_database = populate_concert_database(concert_database, venue_seats)
+                print(concert_database)
+
+
+                # Exercise 3
+                concert = ('Ahoy', 'Backstreet Boys', '11-02-2024')
+                seat_number = 'A3'
+                name = 'Jan Janssen'
+
+                sell_ticket(concert_database, concert, seat_number, name)
+
+                seat_number = 'C1'
+                name = 'Bart Bakker'
+                sell_ticket(concert_database, concert, seat_number, name)
+
+                # Print the tickets for a specific concert
+                print(concert_database[concert])
+
+
+                # Exercise 4
+                concert = ('Ahoy', 'Backstreet Boys', '11-02-2024')
+                available_tickets = get_available_tickets(concert_database, concert)
+                print(available_tickets)
 
         'temp.py': |
             # This file will be ignored by us. You can use this as a canvas
