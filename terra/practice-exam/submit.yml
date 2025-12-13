@@ -88,11 +88,13 @@ files:
                 # Exercise 1
                 concert_database = initialize_concert_database(concerts)
                 print(concert_database)
+                print()
 
 
                 # Exercise 2
                 concert_database = populate_concert_database(concert_database, venue_seats)
                 print(concert_database)
+                print()
 
 
                 # Exercise 3
@@ -108,6 +110,7 @@ files:
 
                 # Print the tickets for a specific concert
                 print(concert_database[concert])
+                print()
 
 
                 # Exercise 4
