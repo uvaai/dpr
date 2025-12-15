@@ -117,7 +117,7 @@ files:
                 available_tickets = get_available_tickets(concert_database, concert)
                 print(available_tickets)
 
-        'temp.py': |
+        'draft.py': |
             # This file will be ignored by us. You can use this as a canvas
             # for drafts and test out code fragments.
 
