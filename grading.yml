@@ -57,7 +57,7 @@ grades:
     # scraping-minai:
     #     <<: *manual
     #     deadline: 24/05/24 18:00
-    exam1: *check_off
+    exam: *check_off
     exam2: *check_off
 
 calculation:
@@ -88,11 +88,11 @@ manualcheck:
         transformation-1: 1
         wikipedia: 1
 
-exam1:
+exam:
     required: false
     show_progress: true
     submits:
-        exam1: 1
+        exam: 1
 
 exam2:
     required: false
