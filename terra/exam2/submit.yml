@@ -1,0 +1,39 @@
+name: exam2
+exam: true
+buttons:
+    "Checkpy OOP": |
+            from checkpy.interactive import testOffline
+            testOffline("exam9_oop", "/home/pyodide", multiprocessing=False, silentMode=False)
+            print("\nend tests!")
+    "Checkpy Pandas": |
+            from checkpy.interactive import testOffline
+            testOffline("exam9_pandas", "/home/pyodide", multiprocessing=False, silentMode=False)
+            print("\nend tests!")
+    "Checkpy built-ins": |
+            from checkpy.interactive import testOffline
+            testOffline("exam9_bi", "/home/pyodide", multiprocessing=False, silentMode=False)
+            print("\nend tests!")
+check:
+    tool: checkpy
+    repo: uvaai/exam-tests
+    args: exam9_oop exam9_pandas exam9_bi
+files:
+    required:
+        'exam9_oop.py': |
+            pass
+        'exam9_pandas.py': |
+            pass
+        'exam9_bi.py': |
+            pass
+        'draft.py': |
+            pass
+
+    hidden:
+        'exam9_oopTest.py': |
+            pass
+        'exam9_pandasTest.py': |
+            pass
+        'exam9_biTest.py': |
+            pass
+        'exam9_pandas_output.pkl': |
+            pass
