@@ -27,13 +27,13 @@ files:
             pass
         'draft.py': |
             pass
-
-    hidden:
+hidden_files:
+    required:
         'exam9_oopTest.py': |
             pass
         'exam9_pandasTest.py': |
             pass
         'exam9_biTest.py': |
             pass
-        'exam9_pandas_output.pkl': |
+        'exam9_pandas_outputs.pkl': |
             pass
