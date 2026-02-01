@@ -1,17 +1,9 @@
 
 ## Module 4
 
-The deadline for both Data Processing and Representations and Introduction to Machine Learning 2 is<br>**Thursday November 27th at 17:59**
+Next week there will be no class at all, as it the "education week". With this education week and the other holidays this period, we're required to merge some of the modules to leave enough room in the schedule of the courses. For this year, that means we won't be able to cover decision trees and a part of webscraping. We'll instead publish the content here as optional modules, which is not part of the exam material, and so does *not* need to be submitted at all. Feel free to try these optional modules whenever you're interested in learning more about these topics.
 
-| Day                | Data Processing<br>and Representations | Introduction to<br>Machine Learning | Seminars          |
-| ------------------ | ---------------------------- | ----------------------------------- | --------------------------- |
-| Thursday<br>20/11  | Processing violations<br>and reviews | Watch Theory videos + Entropy |                           |
-| Friday<br>21/11    | Counting words and<br>better metrics | Splitting data + Info Gain  | Office hours                |
-|                    |                                      |                             |                             |
-| Monday<br>24/11    | Further tweaks and<br>first improvement | ID3                | Group seminar               |
-| Tuesday<br>25/11   | First improvement      | Numerical Decision Trees            |                             |
-| Wednesday<br>26/11 | Second improvement     | Random Forests                      |                             |
-| Thursday<br>27/11  | Second improvement<br>and compare improv. | Written Assignment |                      |
+We'll publish module 5 after the education week, so on Tuesday the 6th of May. Enjoy your holiday!
 
 
 
