@@ -1,19 +1,20 @@
 
 # Module 1
 
-The deadline for both Data Processing and Representations and Introduction to Machine Learning 2 is<br>**Friday October 31st at 17:59**
+The deadline for both Data Processing and Representations and Introduction to Machine Learning 2 is<br>**Tuesday April 7th at 17:59**
 
 | Day                | Data Processing<br>and Representations | Introduction to<br>Machine Learning | Seminars          |
 | ------------------ | ---------------------------- | ----------------------------------- | --------------------------- |
-| Monday<br>27/10    | Introduction, Game of Cards  | Theory videos +<br>Logistic Regression: Assignment 2 | Group seminar|
-| Tuesday<br>28/10   | Populations: Phase 1         | Logistic Regression: Assignment 5   |                             |
-| Wednesday<br>29/10 | Populations: Phase 2 & 3     | Logistic Regression: Assignment 8   | Office hours                |
-| Thursday<br>30/10  | Populations: Phase 4         | Logistic Regression: Assignment 10  |                             |
-| Friday<br>31/10    | Populations: Phase 5         | Written Assignment                  |                             |
+| Monday<br>30/03    | Introduction, Game of Cards  | Theory videos +<br>Logistic Regression: Assignment 2 | Group seminar|
+| Tuesday<br>31/03   | Populations: Phase 1         | Logistic Regression: Assignment 5   |                             |
+| Wednesday<br>01/04 | Populations: Phase 2 & 3     | Logistic Regression: Assignment 8   | Office hours                |
+| Thursday<br>02/04  | Populations: Phase 4         | Logistic Regression: Assignment 10  |                             |
+|                    |                              |                                     |                             |
+| Tuesday<br>07/04   | Populations: Phase 5         | Written Assignment                  |                             |
 
 
 
 #### Office hours
 
-The office hours will be held in room **L0.11 at 10:00** on the scheduled day. During office hours you can use the question queue to ask the staff any further explanations on the theory of that module, or discuss any personal matters.
+The office hours will be held in room **L0.09 at 10:00** on the scheduled day. During office hours you can use the question queue to ask the staff any further explanations on the theory of that module, or discuss any personal matters.
 

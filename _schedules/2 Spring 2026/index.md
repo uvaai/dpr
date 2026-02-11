@@ -26,7 +26,7 @@ questions.
 The core schedule for this course, together with Inleiding Machine
 Learning 2, is built around working on the combined material each weekday from
 9 to 5. For this we have one room on the Science Park campus permanently
-reserved for minor AI students, namely **L0.10**, which provides enough space
+reserved for minor AI students, namely **L0.09**, which provides enough space
 for all of you to work on campus full-time.
 
 Most on-campus activities, including the practical assistance, will generally be
@@ -34,7 +34,7 @@ held in this room. There are some exceptions with activities that do not fit
 in the room, like the group seminars and the exam. The schedule for these
 group seminars can be found on Datanose [here](https://datanose.nl/#course[128476])
 
-The schedule for the practical assistance hours that will be held in L0.10 can
+The schedule for the practical assistance hours that will be held in L0.09 can
 be found in the "Asking Questions" section below.
 
 ### Deadlines and daily schedules
@@ -146,7 +146,7 @@ Every module there will be at least one planned set of office hours, where you
 can ask the staff any questions you might have about theoretical parts of the
 course. The schedule for these office hours can be found as part of the daily
 schedule for the module. The office hours will always be together with the
-practical assistance hours in the main room L0.10.
+practical assistance hours in the main room L0.09.
 
 During the office hours, you can use the same "Assistance" feature to ask any
 further explanations on the theory of that module. Simply start your question
