@@ -31,7 +31,7 @@ templates:
 grades:
     populations-1:
         <<: *check_off
-        deadline: 03/11/25 12:00
+        deadline: 03/11/25 18:00
     populations-2:
         <<: *manual
         deadline: 10/11/25 18:00
