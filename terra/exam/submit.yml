@@ -3,27 +3,27 @@ exam: true
 buttons:
     "Checkpy OOP": |
             from checkpy.interactive import testOffline
-            testOffline("exam8_oop", "/home/pyodide", multiprocessing=False, silentMode=False)
+            testOffline("exam10_oop", "/home/pyodide", multiprocessing=False, silentMode=False)
             print("\nend tests!")
     "Checkpy Pandas": |
             from checkpy.interactive import testOffline
-            testOffline("exam8_pandas", "/home/pyodide", multiprocessing=False, silentMode=False)
+            testOffline("exam10_pandas", "/home/pyodide", multiprocessing=False, silentMode=False)
             print("\nend tests!")
     "Checkpy built-ins": |
             from checkpy.interactive import testOffline
-            testOffline("exam8_bi", "/home/pyodide", multiprocessing=False, silentMode=False)
+            testOffline("exam10_bi", "/home/pyodide", multiprocessing=False, silentMode=False)
             print("\nend tests!")
 check:
     tool: checkpy
     repo: uvaai/exam-tests
-    args: exam8_oop exam8_pandas exam8_bi
+    args: exam10_oop exam10_pandas exam10_bi
 files:
     required:
-        'exam8_oop.py': |
+        'exam10_oop.py': |
             pass
-        'exam8_pandas.py': |
+        'exam10_pandas.py': |
             pass
-        'exam8_bi.py': |
+        'exam10_bi.py': |
             pass
         'draft.py': |
             pass
