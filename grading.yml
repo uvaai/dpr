@@ -63,9 +63,10 @@ grades:
 calculation:
     final:
         assignments: 100
-        manualcheck: 0
         exam: 0
-        # exam2: 0
+    retake:
+        assignments: 100
+        exam2: 0
 
 assignments:
     type: average
@@ -89,13 +90,13 @@ manualcheck:
 #        wikipedia: 1
 
 exam:
-    required: false
+    required: true
     show_progress: true
     submits:
         exam: 1
 
 exam2:
-    required: false
+    required: true
     show_progress: true
     submits:
         exam2: 1
