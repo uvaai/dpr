@@ -31,32 +31,22 @@ templates:
 grades:
     populations-1:
         <<: *check_off
-        deadline: 03/11/25 18:00
+        deadline: 30/10/26 18:00
     populations-2:
         <<: *manual
-        deadline: 15/04/26 18:00
+        deadline: 9/11/26 18:00
     transformation-1:
         <<: *check_off
-        deadline: 24/04/26 18:00
+        deadline: 18/11/26 18:00
     transformation-2:
         <<: *manual
-        deadline: 13/05/26 18:00
-#    wikipedia:
-#        <<: *check_off
-#        deadline: 13/05/26 18:00
+        deadline: 26/11/26 18:00
+    wikipedia:
+        <<: *check_off
+        deadline: 4/12/26 18:00
     malaria:
         <<: *manual
-        deadline: 22/05/26 18:00
-    # transformation-3: *manual
-    # scraping-1:
-    #     <<: *check_off
-    #     deadline: 06/12/24 18:00
-    # scraping-2:
-    #     <<: *manual
-    #     deadline: 13/12/24 18:00
-    # scraping-minai:
-    #     <<: *manual
-    #     deadline: 24/05/24 18:00
+        deadline: 11/12/26 18:00
     exam: *check_off
     exam2: *check_off
 
@@ -76,18 +66,15 @@ assignments:
         populations-2: 2
         transformation-1: 0
         transformation-2: 2
-#        wikipedia: 0
-        malaria: 1
-        # scraping-minai: 1
-        # scraping-1: 0
-        # scraping-2: 2
+        wikipedia: 0
+        malaria: 2
 
 manualcheck:
     type: points
     submits:
         populations-1: 1
         transformation-1: 1
-#        wikipedia: 1
+        wikipedia: 1
 
 exam:
     required: true
