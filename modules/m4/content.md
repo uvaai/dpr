@@ -1,13 +1,21 @@
 
 ## Module 4
 
-Next week there will be no class at all, as it the "education week". With this education week and the other holidays this period, we're required to merge some of the modules to leave enough room in the schedule of the courses. For this year, that means we won't be able to cover decision trees and a part of webscraping. We'll instead publish the content here as optional modules, which is not part of the exam material, and so does *not* need to be submitted at all. Feel free to try these optional modules whenever you're interested in learning more about these topics.
+The deadline for both Data Processing and Representations and Introduction to Machine Learning 2 is<br>**Friday November 27th at 17:59**
 
-We'll publish module 5 after the education week, so on Tuesday the 6th of May. Enjoy your holiday!
+| Day                | Data Processing<br>and Representations | Introduction to<br>Machine Learning | Seminars          |
+| ------------------ | ---------------------------- | ----------------------------------- | --------------------------- |
+| Friday<br>20/11    | Processing violations<br>and reviews | Watch Theory videos + Entropy |                           |
+|                    |                                      |                               |                           |
+| Monday<br>23/11    | Counting words and<br>better metrics | Splitting data + Info Gain  | Office hours<br>Group seminar|
+| Tuesday<br>24/11   | Further tweaks and<br>first improvement | ID3                |                             |
+| Wednesday<br>25/11 | First improvement      | Numerical Decision Trees            |                             |
+| Thursday<br>26/11  | Second improvement     | Random Forests                      |                             |
+| Friday<br>27/11    | Second improvement<br>and compare improv. | Written Assignment |                      |
 
 
 
 #### Office hours
 
-The office hours will be held in room **L0.09 at 10:00** on the scheduled day. During office hours you can use the question queue to ask the staff any further explanations on the theory of that module, or discuss any personal matters.
+The office hours will be held in room **L0.11 at 10:00** on the scheduled day. During office hours you can use the question queue to ask the staff any further explanations on the theory of that module, or discuss any personal matters.
 

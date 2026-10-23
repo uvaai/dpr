@@ -2,7 +2,7 @@
 
 University of Amsterdam / Programming Lab / 5082DAPI6Y
 
-## Syllabus<br><small>Fall 2025</small>
+## Syllabus<br><small>Fall 2026</small>
 
 This course is the continuation of Python for Data Processing. In data
 processing we take raw data, apply transformations to make this data more
@@ -30,11 +30,7 @@ reserved for minor AI students, namely **L0.11**, which provides enough space
 for all of you to work on campus full-time.
 
 Most on-campus activities, including the practical assistance, will generally be
-held in this room. There are some exceptions with activities that do not fit
-in the room, like the group seminars and the exam. The schedule for these
-group seminars can be found on Datanose [here](https://datanose.nl/#course[136815])
-
-The schedule for the practical assistance hours that will be held in L0.11 can
+held in this room. The schedule for the practical assistance hours that will be held in L0.11 can
 be found in the "Asking Questions" section below.
 
 ### Deadlines and daily schedules
@@ -57,10 +53,9 @@ look at possible solutions early.
 
 #### Part-time students
 
-If you are a part-time student, you can just follow the *Data Processing and Representations*
-half of the daily schedule. You should still attend the group
-seminars with the other students, as scheduled [here](https://datanose.nl/#course[136815]),
-but can otherwise choose which of your daily practical assistance slots combine
+If you are a part-time student, you can just follow the
+*Data Processing and Representations* half of the daily schedule.
+You may choose which of your daily practical assistance slots combine
 best with your own schedule.
 
 ### Absences and calling in sick
@@ -132,7 +127,7 @@ TA handling your question knows where to find you when it is your turn.
 The hours are scheduled as follows:
 
 * In general, assistance hours are from 10:00 to 13:00
-* On Mondays there are group seminars in the morning, so the assistance hours are from 14:00 to 17:00 instead.
+* On Mondays the assistance hours are from 14:00 to 17:00 instead.
 
 ### Office hours
 
@@ -155,17 +150,6 @@ relevant relevant for a larger number of students, they might be covered on the
 board, but in general, questions will be answered individually or in smaller
 groups. The office hours can also be used for any other matters you might want
 to discuss with staff, such as personal matters or an alternate planning.
-
-### Seminars
-
-Once a week on Mondays there are separate group seminars with your own TA. The
-topics covered in these seminars will depend on the material of that week: how
-to improve the style and design of your code, discussing the some of the
-written assignment topics, or some small programming exercises to practice
-with the group. In addition, you can always use these seminars to ask you TA any
-questions you might have about the feedback they gave you as part of the grading for
-the previous module. The schedule for the group seminars can be found on Datanose
-[here](https://datanose.nl/#course[136815])
 
 ### Email the staff
 
@@ -218,15 +202,15 @@ offer practical assistance every day of the week.
 As asking questions is such a fundamental part of the way we expect you to
 learn, attendance for some of the practical assistance is mandatory. This is
 not required for every single practical session, but you should attend the
-majority of the practicals offered. Each week there are 6 lessons you can
-attend: practical assistance every day of the week, and a seminar with your own
-TA once per week. Of these you should attend at minimum 4 per week to receive a
+majority of the practicals offered. Each week there are 5 lessons you can
+attend; one practical assistance every day of the week.
+Of these you should attend at minimum 4 per week to receive a
 pass for the attendance that week. Note that for parttime students the
 requirement is only to attend 2 lessons each week.
 
 #### Rules regarding attendance
 
-* You need to attend 4 out of 6 lessons each week as a fulltime student, or 2 out of 6 as a parttime student
+* You need to attend 4 out of 5 lessons each week as a fulltime student, or 2 out of 5 as a parttime student
 * Attendance will be taken during the practical assistance each day at 10:15 and students entering after 10:30 will not be registered present
 * If you are registered sick (see the section *Absenses* above), you are also exempted from attendance on those days
 * If you need an exception for the attendance of a week for whatever reason, this should be arranged *before* the start of that week with course staff (this is a type of staff exception, as described above)
