@@ -1,18 +1,18 @@
 
 # Module 3
 
-The deadline for both Data Processing and Representations and Introduction to Machine Learning 2 is<br>**Thursday November 19th at 17:59**
+The deadline for both Data Processing and Representations and Introduction to Machine Learning 2 is<br>**Wednesday November 18th at 17:59**
 
 | Day                | Data Processing<br>and Representations | Introduction to<br>Machine Learning | Seminars          |
 | ------------------ | ---------------------------- | ----------------------------------- | --------------------------- |
-| Wednesday<br>11/11 | Start Climate Data           | Watch Theory 1 +<br>Backward: 1a    |                             |
-| Thursday<br>12/11  | Finish Climate Data          | Backward: 1b & 2                    | Office hours                |
-| Friday<br>13/11    | Yelp: t/m Merging JSON reviews | Backward: 3, 4 & 5 + Written<br>assignment: Send GDPR request | |
-|                    |                                |                                                               | |
-| Monday<br>16/11    | Yelp: Matching inspections<br>with reviews | Backward: 6 +<br>Watch Theory 2 | Group seminar     |
-| Tuesday<br>17/11   | Yelp: Matching inspections<br>with reviews | Start Activations        |                          |
-| Wednesday<br>18/11 | Yelp: Merging in the inspections | Finish Activations +<br>Watch Theory 3 | Office hours         |
-| Thursday<br>19/11  | Yelp: Merging in the inspections | Finish Written Assignment       |                             |
+| Tuesday<br>10/11   | Start Climate Data           | Watch Theory 1 +<br>Backward: 1a    |                             |
+| Wednesday<br>11/11 | Finish Climate Data          | Backward: 1b & 2                    | Office hours                |
+| Thursday<br>12/11  | Yelp: t/m Merging JSON reviews | Backward: 3, 4 & 5 + Written<br>assignment: Send GDPR request | |
+| Friday<br>13/11    | Yelp: Matching inspections<br>with reviews | Backward: 6 +<br>Watch Theory 2 |                   |
+|                    |                                            |                                 |                   |
+| Monday<br>16/11    | Yelp: Matching inspections<br>with reviews | Start Activations        |                          |
+| Tuesday<br>17/11   | Yelp: Merging in the inspections | Finish Activations +<br>Watch Theory 3 | Office hours         |
+| Wednesday<br>18/11 | Yelp: Merging in the inspections | Finish Written Assignment       |                             |
 
 
 
